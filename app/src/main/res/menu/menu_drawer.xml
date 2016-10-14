@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/item_home"
+            android:checked="true"
+            android:icon="@drawable/start"
+            android:title="@string/app_name" />
+        <item
+            android:id="@+id/item_classless"
+            android:icon="@drawable/classless"
+            android:title="@string/item_classless" />
+        <item
+            android:id="@+id/item_classful"
+            android:icon="@drawable/classless"
+            android:title="@string/item_classful"/>
+        <item
+            android:id="@+id/item_subred_homo"
+            android:icon="@drawable/subredes"
+            android:title="@string/item_subnet_homo"/>
+        <item
+            android:id="@+id/item_subred_hete"
+            android:icon="@drawable/subredes"
+            android:title="@string/item_subnet_hete"/>
+        <item
+            android:id="@+id/item_superred"
+            android:icon="@drawable/superredes"
+            android:title="@string/item_supernet"/>
+    </group>
+</menu>

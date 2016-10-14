@@ -1,0 +1,90 @@
+<resources>
+    <string name="app_name">IpCalc</string>
+    <string name="subtitle">Una forma mas fácil de estudiar</string>
+    <string name="title_list">IP version 4</string>
+    <string name="item_classless">Calculo sin clase</string>
+    <string name="item_classful">Calculo con clase</string>
+    <string name="item_subnet_homo">Sub-redes homogeneas</string>
+    <string name="item_subnet_hete">Sub-redes heterogeneas</string>
+    <string name="item_supernet">Calculo super-redes</string>
+    <string name="hide_drawer">Ocultar</string>
+    <string name="text_input">Ingresar datos</string>
+    <string name="hint_ip">Direccion IP / Mascara</string>
+    <string name="hint_ip_classful">Direccion IP</string>
+    <string name="hint_number_host">Numero de hosts</string>
+    <string name="point">.</string>
+    <string name="slash">/</string>
+    <string name="ip_invalid">. La dirección IP no es válida</string>
+    <string name="first_invalid">. 1er octeto</string>
+    <string name="second_invalid">. 2do octeto</string>
+    <string name="third_invalid">. 3er octeto</string>
+    <string name="fourth_invalid">. 4to octeto</string>
+    <string name="fifth_invalid">. Mascara </string>
+    <string name="result">RESULTADO</string>
+    <string name="address_ip">Dirección IP</string>
+    <string name="network_ip">Red IP</string>
+    <string name="broadcast_ip">Broadcast IP</string>
+    <string name="range_host">Rango de host</string>
+    <string name="number_hosts">Numero de host útiles</string>
+    <string name="binary">Binario</string>
+    <string name="decimal">Decimal</string>
+
+    <string name="class_a">Clase A</string>
+    <string name="class_b">Clase B</string>
+    <string name="class_c">Clase C</string>
+
+
+    <string-array name="class_a_array">
+        <item>255.0.0.0(/8)</item>
+        <item>255.128.0.0(/9)</item>
+        <item>255.192.0.0(/10)</item>
+        <item>255.224.0.0(/11)</item>
+        <item>255.240.0.0(/12)</item>
+        <item>255.248.0.0(/13)</item>
+        <item>255.252.0.0(/14)</item>
+        <item>255.254.0.0(/15)</item>
+        <item>255.255.0.0(/16)</item>
+        <item>255.255.128.0(/17)</item>
+        <item>255.255.192.0(/18)</item>
+        <item>255.255.224.0(/19)</item>
+        <item>255.255.240.0(/20)</item>
+        <item>255.255.248.0(/21)</item>
+        <item>255.255.252.0(/22)</item>
+        <item>255.255.254.0(/23)</item>
+        <item>255.255.255.0(/24)</item>
+        <item>255.255.255.128(/25)</item>
+        <item>255.255.255.192(/26)</item>
+        <item>255.255.255.224(/27)</item>
+        <item>255.255.255.240(/28)</item>
+        <item>255.255.255.248(/29)</item>
+        <item>255.255.255.252(/30)</item>
+    </string-array>
+    <string-array name="class_b_array">
+        <item>255.255.0.0(/16)</item>
+        <item>255.255.128.0(/17)</item>
+        <item>255.255.192.0(/18)</item>
+        <item>255.255.224.0(/19)</item>
+        <item>255.255.240.0(/20)</item>
+        <item>255.255.248.0(/21)</item>
+        <item>255.255.252.0(/22)</item>
+        <item>255.255.254.0(/23)</item>
+        <item>255.255.255.0(/24)</item>
+        <item>255.255.255.128(/25)</item>
+        <item>255.255.255.192(/26)</item>
+        <item>255.255.255.224(/27)</item>
+        <item>255.255.255.240(/28)</item>
+        <item>255.255.255.248(/29)</item>
+        <item>255.255.255.252(/30)</item>
+    </string-array>
+    <string-array name="class_c_array">
+        <item>255.255.255.0(/24)</item>
+        <item>255.255.255.128(/25)</item>
+        <item>255.255.255.192(/26)</item>
+        <item>255.255.255.224(/27)</item>
+        <item>255.255.255.240(/28)</item>
+        <item>255.255.255.248(/29)</item>
+        <item>255.255.255.252(/30)</item>
+    </string-array>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
